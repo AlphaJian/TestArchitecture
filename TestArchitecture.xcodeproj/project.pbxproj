@@ -11,6 +11,16 @@
 		C0EBBBF4241878AC0076F822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBBF3241878AC0076F822 /* ViewController.swift */; };
 		C0EBBBF9241878AF0076F822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EBBBF8241878AF0076F822 /* Assets.xcassets */; };
 		C0EBBBFC241878AF0076F822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EBBBFA241878AF0076F822 /* LaunchScreen.storyboard */; };
+		C0EBBC082418AFA00076F822 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC072418AFA00076F822 /* StudentModel.swift */; };
+		C0EBBC0A2418AFCB0076F822 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC092418AFCB0076F822 /* Services.swift */; };
+		C0EBBC0C2418B0700076F822 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC0B2418B0700076F822 /* MVCViewController.swift */; };
+		C0EBBC0E2418B0810076F822 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC0D2418B0810076F822 /* BaseViewController.swift */; };
+		C0EBBC102418B3E40076F822 /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC0F2418B3E40076F822 /* MVPViewController.swift */; };
+		C0EBBC122418B3FC0076F822 /* StudentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC112418B3FC0076F822 /* StudentPresenter.swift */; };
+		C0EBBC142418C3B90076F822 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC132418C3B90076F822 /* MVVMViewController.swift */; };
+		C0EBBC162418C3DA0076F822 /* StudentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC152418C3DA0076F822 /* StudentViewModel.swift */; };
+		C0EBBC182418C6F00076F822 /* MVVM-RXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC172418C6F00076F822 /* MVVM-RXViewController.swift */; };
+		C0EBBC1A2418C70A0076F822 /* Student-RxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBBC192418C70A0076F822 /* Student-RxViewModel.swift */; };
 		EAECF27DF1724CBA10A31E0A /* Pods_TestArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A8BCD5DD83B23B43AE4503 /* Pods_TestArchitecture.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +34,16 @@
 		C0EBBBF8241878AF0076F822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0EBBBFB241878AF0076F822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0EBBBFD241878AF0076F822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EBBC072418AFA00076F822 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		C0EBBC092418AFCB0076F822 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		C0EBBC0B2418B0700076F822 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
+		C0EBBC0D2418B0810076F822 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C0EBBC0F2418B3E40076F822 /* MVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
+		C0EBBC112418B3FC0076F822 /* StudentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPresenter.swift; sourceTree = "<group>"; };
+		C0EBBC132418C3B90076F822 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		C0EBBC152418C3DA0076F822 /* StudentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewModel.swift; sourceTree = "<group>"; };
+		C0EBBC172418C6F00076F822 /* MVVM-RXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MVVM-RXViewController.swift"; sourceTree = "<group>"; };
+		C0EBBC192418C70A0076F822 /* Student-RxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student-RxViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,9 @@
 				C0EBBC0624187A360076F822 /* MVVM-RX */,
 				C0EBBBEF241878AC0076F822 /* AppDelegate.swift */,
 				C0EBBBF3241878AC0076F822 /* ViewController.swift */,
+				C0EBBC072418AFA00076F822 /* StudentModel.swift */,
+				C0EBBC092418AFCB0076F822 /* Services.swift */,
+				C0EBBC0D2418B0810076F822 /* BaseViewController.swift */,
 				C0EBBBF8241878AF0076F822 /* Assets.xcassets */,
 				C0EBBBFA241878AF0076F822 /* LaunchScreen.storyboard */,
 				C0EBBBFD241878AF0076F822 /* Info.plist */,
@@ -84,6 +107,8 @@
 		C0EBBC0324187A360076F822 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				C0EBBC132418C3B90076F822 /* MVVMViewController.swift */,
+				C0EBBC152418C3DA0076F822 /* StudentViewModel.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -91,6 +116,8 @@
 		C0EBBC0424187A360076F822 /* MVP */ = {
 			isa = PBXGroup;
 			children = (
+				C0EBBC0F2418B3E40076F822 /* MVPViewController.swift */,
+				C0EBBC112418B3FC0076F822 /* StudentPresenter.swift */,
 			);
 			path = MVP;
 			sourceTree = "<group>";
@@ -98,6 +125,7 @@
 		C0EBBC0524187A360076F822 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				C0EBBC0B2418B0700076F822 /* MVCViewController.swift */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -105,6 +133,8 @@
 		C0EBBC0624187A360076F822 /* MVVM-RX */ = {
 			isa = PBXGroup;
 			children = (
+				C0EBBC172418C6F00076F822 /* MVVM-RXViewController.swift */,
+				C0EBBC192418C70A0076F822 /* Student-RxViewModel.swift */,
 			);
 			path = "MVVM-RX";
 			sourceTree = "<group>";
@@ -231,8 +261,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EBBC122418B3FC0076F822 /* StudentPresenter.swift in Sources */,
+				C0EBBC0C2418B0700076F822 /* MVCViewController.swift in Sources */,
+				C0EBBC162418C3DA0076F822 /* StudentViewModel.swift in Sources */,
+				C0EBBC102418B3E40076F822 /* MVPViewController.swift in Sources */,
+				C0EBBC1A2418C70A0076F822 /* Student-RxViewModel.swift in Sources */,
 				C0EBBBF4241878AC0076F822 /* ViewController.swift in Sources */,
+				C0EBBC0A2418AFCB0076F822 /* Services.swift in Sources */,
+				C0EBBC142418C3B90076F822 /* MVVMViewController.swift in Sources */,
+				C0EBBC182418C6F00076F822 /* MVVM-RXViewController.swift in Sources */,
+				C0EBBC082418AFA00076F822 /* StudentModel.swift in Sources */,
 				C0EBBBF0241878AC0076F822 /* AppDelegate.swift in Sources */,
+				C0EBBC0E2418B0810076F822 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +410,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E7L3YA792;
 				INFOPLIST_FILE = TestArchitecture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +421,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -388,7 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E7L3YA792;
 				INFOPLIST_FILE = TestArchitecture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +442,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
